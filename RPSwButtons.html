@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>ROCK. PAPER. SCISSORS.></title>
+    <script src="https://kit.fontawesome.com/f1059c1a7a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="RPSwButtons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header class= "header">
+        <h1>ROCK. PAPER. SCISSORS.</h1>
+    </header>
+    <div class="container">
+        <div class="score-container">
+            <span class ="user">YE</span>
+            <span id="score"></span>
+            <span class="com">THEE</span>
+        </div>
+        <div class="buttons">
+            <button id="paper"class="bn" onclick="game(this.value)" value="paper"><i class="fas fa-hand-paper"></i></button>
+            <button id="rock"class="bn" onclick="game(this.value)" value="rock"><i class="fas fa-hand-rock"></i></button>
+            <button id="scissors"class="bn" onclick="game(this.value)" value="scissors"><i class="fas fa-hand-scissors"></i></button>
+        </div>
+        <div id="challenge"></div>
+        <div id="you">
+            <div id="YourObject"></div>
+            <div class="who">YE</div>
+        </div>
+        <div id="result"><p id="who"></p></div>
+        <div id="com"></div>
+            <div id="ComObject"></div>
+            <div class="who">THEE</div>
+        </div>
+    </div>
+</body>
+</html>
+<script type="text/javascript" src="RPSwButtons.js"></script>

@@ -1,0 +1,211 @@
+html, body{
+    height: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Syne Mono', monospace;
+
+}
+header{
+    width: 100%;
+    height: 15%;
+    padding-top: 25px;
+    background-color: rgb(131, 130, 142);
+    box-sizing: border-box;
+}
+header h1{
+    text-align: center;
+    margin: 0;
+}
+.container{
+    position: relative;
+    height: 85%;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: rgb(98, 123, 91);
+}
+.score-container{
+    position: relative;
+    margin: 0 auto;
+    width: 150px;
+    height: 40px;
+    color: #f4a610;
+
+}
+#score{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+
+}
+.user{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #1406b9;
+    width: 40px;
+    height: 15px;
+    font-size: 15px;
+    padding: .5px 10px;
+    box-sizing: border-box;
+}
+.com{
+    position: absolute;
+    right: -35px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #0e19bb;
+    width: 40px;
+    height: 15px;
+    font-size: 15px;
+    padding: 1px 4px;
+    box-sizing: border-box;
+}
+.buttons{
+    /*! width: 280px; */
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.bn{
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+    border: 3px rgb(241, 43, 21);
+    border-radius: 50%;
+    color: rgb(241, 43, 21);
+    font-size: 40px;
+    background-color: #0f0e0e;
+    cursor: pointer;
+    outline: none;
+    transition: .35s;
+}
+.bn:hover{
+    background-color: rgb(206, 31, 7);
+    border-color: wheat;
+    color: rgb(20, 20, 20);
+}
+#challenge{
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 540px;
+    height: 40%;
+    display: inline-flex;
+}
+#you{
+   position: relative;
+    width: 37.5%;
+    font-size: 50px;
+}
+#com{
+    position: relative;
+    width: 37.5%;
+    font-size: 50px;
+}
+#YourObject{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform:translate(-40%, -40%);
+    width: 100px;
+    height: 100px;
+    font-size: 300px;
+    padding-top: 160px;
+    border: 5px seagreen;
+    border-radius: 40%;
+    color: #3b9148;
+    /*! background-color: black; */
+    box-sizing: border-box;
+    text-align: center;
+}
+#ComObject{
+    position: absolute;
+    /*! top: 50%; */
+    left: 75%;
+    /*! transform:translate(-40%, -20%); */
+    width: 100px;
+    height: 100px;
+    font-size: 300px;
+    padding-top: 100px;
+    border: 5px seagreen;
+    border-radius: 40%;
+    color: #d21b1b;
+    /*! background-color: #1c1a1a; */
+    box-sizing: border-box;
+    text-align: center;
+}
+#result{
+    position: relative;
+    width: 30%;
+}
+#result{
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    transform:translate(-40%, -40%);
+    color: #c11515;
+    font-size: 90px;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}
+.who{
+    position: absolute;
+    /*! bottom: 5%; */
+    left: 80%;
+    transform: translateX(-200%);
+    color: #cbd6db;
+    font-size: 50px;
+}
+.green{
+    width: 70px;
+    height: 70px;
+    margin: 5px;
+    border: 3px rgb(83, 179, 19);
+    box-shadow: 0 0 10px rgb(83, 179, 19);
+    border-radius: 50%;
+    color: rgb(241, 43, 21);
+    font-size: 35px;
+    background-color: snow;
+    cursor: pointer;
+    outline: none;
+    transition: .35s;
+}
+.red{
+    width: 70px;
+    height: 70px;
+    margin: 5px;
+    border: 3px rgb(228, 8, 8);
+    box-shadow: 0 0 10px rgb(83, 179, 19);
+    border-radius: 50%;
+    color: rgb(241, 43, 21);
+    font-size: 35px;
+    background-color: snow;
+    cursor: pointer;
+    outline: none;
+    transition: .35s;
+}
+.gray{
+    width: 70px;
+    height: 70px;
+    margin: 5px;
+    border: 3px rgb(158, 154, 154);
+    box-shadow: 0 0 10px rgb(83, 179, 19);
+    border-radius: 50%;
+    color: rgb(241, 43, 21);
+    font-size: 35px;
+    background-color: snow;
+    cursor: pointer;
+    outline: none;
+    transition: .35s;
+
+}
